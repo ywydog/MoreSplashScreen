@@ -239,6 +239,7 @@ jobs:
             "$PublishPath/manifest.yml",
             "$PublishPath/icon.png",
             "$PublishPath/version.json"
+            "$PublishPath/$pluginName.runtimeconfig.json"
           )
           
           # 移除重复项并过滤不存在的文件
